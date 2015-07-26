@@ -5,12 +5,17 @@ module Rfc3339
     , encode
     ) where
 {-| RFC3339 support in Elm.
+
+@docs decode, Date, empty, encode
+
 -}
 
 import Date
 import Result
 import Native.Rfc3339
 
+{-| Alias for `Date.Date`.
+-}
 type alias Date = Date.Date
 
 {-| Takes an RFC3339 string and makes it into a `Date.Date`.
