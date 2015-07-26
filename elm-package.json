@@ -2,11 +2,12 @@
     "version": "1.0.0",
     "summary": "RFC3339 support in Elm",
     "repository": "https://github.com/shutej/rfc3339.git",
-    "license": "MIT",
+    "license": "BSD3",
     "source-directories": [
-        "."
+        "src"
     ],
     "exposed-modules": [
+      "Rfc3339"
     ],
     "dependencies": {
         "deadfoxygrandpa/Elm-Test": "1.0.4 <= v < 2.0.0",
