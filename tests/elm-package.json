@@ -1,15 +1,15 @@
 {
     "version": "1.0.0",
-    "summary": "RFC3339 support in Elm",
+    "summary": "RFC3339 support in Elm (Tests)",
     "repository": "https://github.com/shutej/rfc3339.git",
     "license": "BSD3",
     "source-directories": [
-        "src"
+        ".",
+        "../src"
     ],
-    "exposed-modules": [
-        "Rfc3339"
-    ],
+    "exposed-modules": [],
     "dependencies": {
+        "deadfoxygrandpa/Elm-Test": "1.0.4 <= v < 2.0.0",
         "elm-lang/core": "2.1.0 <= v < 3.0.0"
     },
     "native-modules": true,

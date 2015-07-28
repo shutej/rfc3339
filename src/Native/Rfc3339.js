@@ -38,8 +38,8 @@ Elm.Native.Rfc3339.make = function(localRuntime) {
         return Result.Err("unable to parse input as RFC3339");
       }
 
-      var tzHour   = +m[1] || 0;
-      var tzMin    = +m[2] || 0;
+      var tzHour = +m[1] || 0;
+      var tzMin  = +m[2] || 0;
 
       var tzOffset = new window.Date().getTimezoneOffset() + tzHour * 60 + tzMin;
       return Result.Ok(
